@@ -1,6 +1,9 @@
 class Person {
-    private String name;  // ซ่อนข้อมูลไว้ ไม่ให้แก้หรือเข้าถึงโดยตรง ต้องใช้ Method เข้าถึงเท่านั้น
-    public int age; // สามารถเข้าถึงได้โดยตรง 
+    // ซ่อนข้อมูลไว้ ไม่ให้แก้หรือเข้าถึงโดยตรง 
+    // ต้องใช้ Method เข้าถึงเท่านั้น
+    private String name; 
+    // สามารถเข้าถึงได้โดยตรง  
+    public int age; 
 
     public Person() {
         this.name = "";

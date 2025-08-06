@@ -1,11 +1,10 @@
-# Makefile สำหรับ Java Project - Encapsulation Example
-# ใช้งาน: make compile, make run, make clean, make all
+# Makefile สำหรับ Java Project - Class Example
+# ใช้งาน: make compile, make run, make run-static, make clean, make all
 
 # ตัวแปร
 JAVA_FILES = *.java
 MAIN_CLASS = Main
-CHAIN_CLASS = ChainFunction
-BUILD_DIR = build
+STATIC_CLASS = StaticDemo
 
 # Default target
 all: compile run
@@ -18,9 +17,9 @@ compile:
 run:	
 	java $(MAIN_CLASS)
 
-# รันโปรแกรม ChainFunction
-run-chain:
-	java $(CHAIN_CLASS)
+# รันโปรแกรม Static Demo
+run-static:
+	java $(STATIC_CLASS)
 	
 # ลบไฟล์ .class ทั้งหมด
 clean:
