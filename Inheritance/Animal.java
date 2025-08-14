@@ -61,7 +61,6 @@ class Cat extends Animal {
     }
 }
 
-// Main class สำหรับทดสอบ
 class Main {
     public static void main(String[] args) {
         Dog dog = new Dog("น้องเบคอน", 23, "โกลเด้น รีทรีฟเวอร์");
